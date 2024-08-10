@@ -1,0 +1,88 @@
+body{
+      height:70vh;
+      width:80%;
+      background-color:white;
+    }
+    
+    .container{
+      font-family:poppins,sens-serif;
+      height:80vmin;
+      width:95vmin;
+      background:pink;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      border-radius:30% 70% 33% 67% / 50% 39% 61% 50% ;
+      transform:translateY(50%);
+      box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    }
+    
+   
+   .btn{
+     margin-top:5vmin; 
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     gap:8vmin;
+     opacity:0.9;
+     }
+     
+   p{
+     font-size:8vmin;
+     font-weight:900;
+     color: white;
+     text-shadow:1px 1px #eb81a6;
+   }
+    
+     button{
+      height:15vmin;
+      width:30vmin;
+      border:none;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      border-radius: 500px;
+      font-size:5vmin;    
+      color: pink; 
+      font-weight:500;     
+      text-shadow:1px 1px #eb81a6;            
+    }
+    #random{
+     position: absolute;
+     transform: translateX(62%)
+    }
+    #random1{
+     transform: translateX(-62%)
+    }
+    *{
+      box-sizing:border-box;
+    }
+    
+    .afterYes{
+      height:80vmin;
+      width:95vmin;
+      transform: translateY(50%);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+   //   display:none;
+    }
+    .afterYes p{
+      height:50vmin;
+      width:80vmin;
+      padding:3vmin;
+      color:white;
+      font-size:7vmin;
+      font-weight:900;
+      text-shadow:none;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column; 
+      color:#eb81a6;
+     font-family: 'Dancing Script',sans-serif;     
+    }
+    
+    .hidden{
+      display:none;
+    }
